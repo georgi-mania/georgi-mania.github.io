@@ -1,4 +1,4 @@
-<footer class="site-footer ui segment">
+<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -7,8 +7,8 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-<!--          <li>{{ site.title }}</li>-->
-<!--  s-->
+          <li>{{ site.title }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           <li><a href="http://www.icslab.eu">{{ site.url }}</a></li>
           <li>
             <ul class="social-media-list">
@@ -23,9 +23,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-<!--        <p>{{ site.description }}</p>-->
-         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-       
+        <p>{{ site.description }}</p>
       </div>
     </div>
 

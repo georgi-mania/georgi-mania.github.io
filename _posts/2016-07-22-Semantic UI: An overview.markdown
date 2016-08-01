@@ -2,19 +2,13 @@
 layout: post
 title:  "Semantic UI: An overview"
 date:   2016-07-22 12:45:26 +0300
-category: programming
-tags: web 
-author: Georgiana
+categories: web 
 ---
-
-<meta property="og:url"                content="http://www.icslab.eu/blog/programming/2016/07/22/Semantic-UI-An-overview.html" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="Semantic UI: An overview" />
-<meta property="og:description"        content="This a review for Semantic UI which was tested by our team last month for building a presentation website." />
 
 This a review for [Semantic UI](http://semantic-ui.com/) which was tested by [our team](http://www.icslab.eu/#ourteam) last month for building a presentation website.
 
-There are many available front-end frameworks like [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), [HTML Kickstart](http://www.99lime.com/elements/) or [Ivory](https://github.com/kanthvallampati/IVORY), but we decided to go with [Semantic UI 2.2](http://semantic-ui.com/) to build a website. 
+There are many available front-end frameworks like [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), [HTML Kickstart](http://www.99lime.com/elements/) or [Ivory](https://github.com/kanthvallampati/IVORY), but we decided to go with [Semantic UI 2.2]
+(http://semantic-ui.com/) to build a website. 
 
 The framework is easy to install. There is a [step-by-step online guide](http://semantic-ui.com/introduction/getting-started.html) which describes in detail what and how you need to install and configure so that everything is correctly set up.
 
@@ -39,7 +33,7 @@ We need a form with one field which is mandatory to be filled in. Otherwise, a s
 Available CSS are easy to use because their names are in natural language. For example, if you need a small, circular button containing the facebook icon (which by the way has already the appropriate style in place), you only need to add the specific style class:
 
 {% highlight html %}
-<button class="ui circular small facebook icon button">
+    <button class="ui circular small facebook icon button">
 {% endhighlight %}
 
 ![]({{ site.url }}/images/facebook.png)

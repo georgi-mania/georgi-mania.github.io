@@ -17,7 +17,5 @@ url: "http://icslab.eu" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  icslabspace
 
-paginate: 1
-
 # Build settings
 markdown: kramdown
